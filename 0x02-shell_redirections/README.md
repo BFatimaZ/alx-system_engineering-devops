@@ -27,9 +27,9 @@ Script that counts the number of directories and sub-directories in the current 
 Script that displays the 10 newest files in the current directory.
 ## Task 13. Being unique is better than being perfect
 Script that takes a list of words as input and prints only words that appear exactly once.
-    * Input format: One line, one word
-    * Output format: One line, one word
-    * Words should be sorted
+* Input format: One line, one word
+* Output format: One line, one word
+* Words should be sorted
 ## Task 14. It must be in that file
 Display lines containing the pattern “root” from the file /etc/passwd
 ## Task 15. Count that word
@@ -40,7 +40,7 @@ Display lines containing the pattern “root” and 3 lines after them in the fi
 Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 ## Task 18. Letters only please
 Display all lines of the file /etc/ssh/sshd_config starting with a letter.
-    * include capital letters as well
+* include capital letters as well
 ## Task 19. A to Z
 Replace all characters A and c from input to Z and e respectively.
 ## Task 20. Without C, you would live in hiago
@@ -49,4 +49,28 @@ Script that removes all letters c and C from input.
 Script that reverse its input.
 ## Task 22. DJ Cut Killer
 Script that displays all users and their home directories, sorted by users.
-    * Based on the the /etc/passwd file
+* Based on the the /etc/passwd file
+## Task 23. Empty casks make the most noise
+command that finds all empty files and directories in the current directory and all sub-directories.
+Only the names of the files and directories should be displayed (not the entire path)
+* Hidden files should be listed
+* One file name per line
+* The listing should end with a new line
+* You are not allowed to use basename, grep, egrep, fgrep or rgrep
+## Task 24. A gif is worth ten thousand words
+Script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+* Hidden files should be listed
+* Only regular files (not directories) should be listed
+* The names of the files should be displayed without their extensions
+* The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
+* One file name per line
+* The listing should end with a new line
+* You are not allowed to use basename, grep, egrep, fgrep or rgrep
+## Task 25. Acrostic
+Create a script that decodes acrostics that use the first letter of each line.
+* The ‘decoded’ message has to end with a new line
+* You are not allowed to use grep, egrep, fgrep or rgrep
+## Task 26. The biggest fan
+Script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+* Order by number of requests, most active host or IP at the top
+* You are not allowed to use grep, egrep, fgrep or rgrep
